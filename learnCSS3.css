@@ -1,0 +1,115 @@
+body
+{
+	background-image: url("howandhow.jpg")/url("howandhow.jpg"),url("image2.jpg");
+    background-image:url("howandhow.jpg"),url("image2.jpg"); <!-- for more images -->
+    background-image: linear-gradient(blue,red);<!-- work like a sun shine -->
+    background-image: repeating-linear-gradient(blue 10%,red 20%);<!-- will repeat the colorr-->
+    background-image: linear-gradient(to top left,red,blue);
+    background-image: linear-gradient(45deg,red,blue);
+    background-image: radial-gradient(circle ,red 10%,yellow 20%,black);
+    background-image: radial-gradient(closest side,red ,yellow,black);
+    background-image: radial-gradient(circle at top right,red ,yellow,black);
+    background-image: radial-gradient(circle at 30% 20%,red ,yellow,black);
+    background-image: conic-gradient(red,blue,yellow);
+
+    background-position: 0% 0%, 100% 100%;
+    background-position: center/top/bottom/left /right;
+	background-size:cover/auto/contain;
+
+	background-size:500px;
+	background-size: 300px 50%;
+	background-size: 100px center;
+	background-repeat:no-repeat;
+
+	background-origin:border-box; <!-- using this we can start bakgrouund anywhere from where we want-->
+	background-clip:padding-box; <!-- by using this we can adjust colur-->
+	background-attachment:fixed/scroll/local(move on text);<!-- move the text on the image but imge will be stoped-->
+    background-attachment: local;<!-- move both text as well as image always use when overfloww:usee-->
+
+    background-color: yellow;
+    background-color: #80ff00;<!_use for hexa(first two digit show red color then green ans last blue_>
+
+	border:10px dotted #ff0; <!-- use for bordering of box -->
+	border-radius: 50%; 
+    border: 5px solid red;
+    border-style: dashed;
+    border-color: green;
+    border-width:20px;
+    border-top-style: dotted;
+    border-width: thin 30px;
+    border-top-width: thick;
+    border-radius:10px;
+    border-top-right-radius: 20px; <!-- use to give roundd shapee to corners of box -->
+    border-collapse: collapse; <!-- use on table tto merge the two borders -->
+    border-image-source: url("image2.jpg");  <!-- use to put  image on borderr (decoratee the borderr) -->
+    border-image-repeat: round;
+    border-image-outset:30px; <!-- to sparke or shine the borderr imagee -->
+    border-image-width: 30px <!-- to adjustt the size of borderr imagee -->
+    
+    margin: 50%;
+    margin-bottom: 20px;
+	margin: 20px; <!-- use to give some spce btw to things like images -->
+	margin-left: 70px; <!-- positionn set or marginn is use to spacee from browse to things -->
+   
+    padding-bottom: 30px;
+	padding: 40px; <!-- space btw text and borderr or its a spcae around the text separate the text from something -->   -->
+	padding:40px 30px;
+	
+
+}
+
+h1,h4 <!-- informative when we want to change more then one  -->
+{
+
+    text-indent: 20px <!-startt praghragh by lefting some spacee from begining -->  
+	text-align:right;
+	text-decoration:line-through; <!-- underlinee the text -->
+	text-transform:capitalize; <!-- use to captilize the text --> 
+	text-shadow: 3px 2px gray;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    line-height: 2px <!-- space btw lines -->
+    overflow: auto;<!-- move the text on a samll portion -->
+}
+h1 
+{
+	color: rgb(0,128,225); 
+	color:red;
+
+	float: left; <!-- so simple use to mve image -->
+
+}
+.box <!--dot usee to define divv classs -->
+{
+	
+	width: 250px;
+	width: 200vw;
+    width: 200px;
+	min-width: 20px; <!-- below this limit text will not be samll -->
+	max-width: 10px;
+
+	height: 100vh;
+	height: 250px;
+	height: 100px;
+	min-height: 20px;
+	max-height: 100px <!-- if text become samll then height will not become samll -->
+	
+	
+
+
+}
+.box h1
+{
+
+	
+	font-size: 30%; <!-- use to increse the sizee of txt -->
+	font-style:italic;
+	font-weight:bold;
+	font-variant: small-caps;
+	font-family:fantasy; <!-- use beacuse some brower doesnot sport some formate -->
+
+	
+}
+
+
+
